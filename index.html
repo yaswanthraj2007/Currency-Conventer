@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>&#128179; Currency Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h2>&#128179; Currency Converter</h2>
+
+    <label>Amount:</label>
+    <input type="number" id="amount" value="1">
+
+    <label>From:</label>
+    <select id="from"></select>
+
+    <label>To:</label>
+    <select id="to"></select>
+
+    <button id="convert">Convert</button>
+
+    <h3 id="result">--Result will appear here--</h3>
+    <p id="api-status" class="api-status status-loading">🟡 Loading…</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
